@@ -62,10 +62,10 @@ Gemini```
 ✅ Update the high level descripiton of your idea in the `idea.md` file.
 
 ### 2. PLANNING.md
-[] `Read my @idea.md then read and modify the @PLANNING.md document to align with my ### Iteration 1: The Core Conversation Loop of @idea.md. Explain your modifications.`
+✅ `Read my @idea.md then read and modify the @PLANNING.md document to align with my ### Iteration 1: The Core Conversation Loop of @idea.md. Explain your modifications.`
 
 ## 3. TASK.md
-[] `Read my @idea.md and @PLANNING.md then read and modify @TASK.md document to align with them. Explain your modifications`
+✅ `Read my @idea.md and @PLANNING.md then read and modify @TASK.md document to align with my ### Iteration 1: The Core Conversation Loop of @idea.md and with @PLANNING.md. Explain your modifications.`
 
 ## 4. README.md
 [] `Read my @idea.md, @PLANNING.md, and @TASK.md files, then read and modify the @README.md document to align with them. Explain your modifications.`
