@@ -50,6 +50,13 @@ Finally, push your new project and its clean history to GitHub.
 # Push the 'main' branch to the 'origin' remote and set it as the default
 git push -u origin main```
 
+### ✅ 6. Initialize Submodules
+This project uses Git submodules to include other repositories. Run the following command to initialize and download the content of these submodules (like `ai-agent-mastery`).
+
+```Bash
+git submodule update --init --recursive
+```
+
 🎉 Your new project is now successfully created with the template's files and a fresh history on your GitHub account.
 
 ## Plan
