@@ -75,14 +75,14 @@ Gemini```
 
 ## Implement
 
-### 1. Implment
-[] `Implement Phase 1 of @TASK.md`
+### 1. Implment Iteration 1
+[] `Implement Iteration 1 of @TASK.md`
 
 ## User Test
 ###
 
 ## Learn
-### Update  prompts
+### Update prompts
 ### Update update examples
 
 
