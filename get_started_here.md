@@ -34,6 +34,9 @@ git branch -M main```
 Add all the files to the new repository and make your first commit. Then, link it to the empty repository you created on GitHub.
 
 ```Bash
+# Remove the template's .gitmodules file if it exists
+rm -f .gitmodules
+
 # Add all the files from the template
 git add .
 
@@ -50,11 +53,18 @@ Finally, push your new project and its clean history to GitHub.
 # Push the 'main' branch to the 'origin' remote and set it as the default
 git push -u origin main```
 
-### ✅ 6. Initialize Submodules
-This project uses Git submodules to include other repositories. Run the following command to initialize and download the content of these submodules (like `ai-agent-mastery`).
+### 6. Add the Project Submodule
+  Now, properly add the ai-agent-mastery repository as a submodule. This command will create the .gitmodules file, clone the repository into the code_examples
+  directory, and stage the changes.
 
 ```Bash
-git submodule update --init --recursive
+git submodule add https://github.com/dynamous-community/ai-agent-mastery.git code_examples/ai-agent-mastery```
+
+### 7. Commit the Submodule
+  Commit the newly added submodule to your project's history.
+
+```Bash
+git commit -m "feat: Add ai-agent-mastery submodule"
 ```
 
 🎉 Your new project is now successfully created with the template's files and a fresh history on your GitHub account.
