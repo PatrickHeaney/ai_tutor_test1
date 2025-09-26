@@ -1,7 +1,7 @@
 # Instructions to create a new project from the `_new_prj` template, follow these steps to clone the template and set up your own local and remote repositories.
 
 ## Startup
-### 1. Clone the Template Normally
+### ✅ 1. Clone the Template Normally
 First, do a standard clone of the template repository. This gives you all the files and the template's history, which we'll remove in the next step.
 
 NOTE: This command will create a new folder named `ai_tutor_test1`.  This folder will be created inside the directory you are currently in within your terminal or command prompt.
@@ -10,7 +10,7 @@ NOTE: This command will create a new folder named `ai_tutor_test1`.  This folder
 # Replace 'new_project_name' with your project's actual name
 git clone https://github.com/PatrickHeaney/_new_prj.git ai_tutor_test1```
 
-### 2. Navigate and Remove the Template's Git History
+### ✅ 2. Navigate and Remove the Template's Git History
 Move into the new directory and completely remove its .git folder. This severs the connection to the original template, leaving just the files.
 
 ```Bash
@@ -20,7 +20,7 @@ cd ai_tutor_test1
 # This command is destructive, make sure you are in the correct directory!
 rm -rf .git```
 
-### 3. Initialize a New, Fresh Repository
+### ✅ 3. Initialize a New, Fresh Repository
 Now, create a brand new Git repository in the same folder. This will be the clean start for your new project and set default branch name to 'main' for consistency with GitHub
 
 ```Bash
@@ -28,7 +28,7 @@ Now, create a brand new Git repository in the same folder. This will be the clea
 git init
 git branch -M main```
 
-### 4. Stage, Commit, and Link to Your New GitHub Repo
+### ✅ 4. Stage, Commit, and Link to Your New GitHub Repo
 ⚠️ First, You must create a new, empty repository on GitHub to get the URL. Do this at https://github.com/new. Do not initialize it with a README or .gitignore file.
 
 Add all the files to the new repository and make your first commit. Then, link it to the empty repository you created on GitHub.
@@ -43,7 +43,7 @@ git commit -m "Initial commit"
 # Add your new GitHub repository as the remote origin
 git remote add origin https://github.com/PatrickHeaney/ai_tutor_test1.git```
 
-### 5. Push to Your New Repository
+### ✅ 5. Push to Your New Repository
 Finally, push your new project and its clean history to GitHub.
 
 ```Bash
@@ -54,15 +54,15 @@ git push -u origin main```
 
 ## Plan
 
-NOTE: Start a new IDE Window, open it to your new folder named `new_project_name` and start your AI Coding asssitant now.
+### ✅ NOTE: Start a new IDE Window, open it to your new folder named `new_project_name` and start your AI Coding asssitant now.
 ```Bash
 Gemini```
 
 ### 1. Idea.md
-[] Update the high level descripiton of your idea in the `idea.md` file.
+✅ Update the high level descripiton of your idea in the `idea.md` file.
 
 ### 2. PLANNING.md
-[] `Read my @idea.md then read and modify the @PLANNING.md document to align with my @idea.md. Explain your modifications.`
+[] `Read my @idea.md then read and modify the @PLANNING.md document to align with my ### Iteration 1: The Core Conversation Loop of @idea.md. Explain your modifications.`
 
 ## 3. TASK.md
 [] `Read my @idea.md and @PLANNING.md then read and modify @TASK.md document to align with them. Explain your modifications`
