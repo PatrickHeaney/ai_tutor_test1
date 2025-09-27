@@ -27,7 +27,7 @@
 - Add new sub-tasks or TODOs discovered during development to `TASK.md` under a “Discovered During Work” section.
 
 ### 📎 Style & Conventions
-- **Use Python** as the primary language.
+- **Use Python** as the primary language. Use uv to install and manage python dependencies.
 - **Follow PEP8**, use type hints, and format with `black`.
 - **Use `pydantic` for data validation**.
 - Write **docstrings for every function** using the Google style:

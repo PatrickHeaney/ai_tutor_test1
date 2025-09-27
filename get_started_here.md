@@ -95,8 +95,44 @@ Gemini```
 ### 1. Implment Iteration 1
 [] `Implement Iteration 1 of @TASK.md`
 
-## User Test
-###
+#### User Test
+After implementing Iteration 1, follow these steps to test the agent manually.
+
+##### 1. Create Environment and Install Dependencies
+This command first creates a virtual environment in a `.venv` folder and then installs the required Python packages into it.
+
+```Bash
+uv venv && uv pip install -r requirements.txt
+```
+
+##### 2. Configure Your LLM
+The agent needs to connect to a Large Language Model.
+
+1.  Create a `.env` file by copying the example:
+    ```Bash
+    # On macOS/Linux
+    cp .env.example .env
+
+    # On Windows
+    # copy .env.example .env
+    ```
+2.  Open the newly created `.env` file in a text editor and fill in the values for your chosen LLM provider.
+
+##### 3. Run the Agent
+Start the conversational agent using this command:
+
+```Bash
+uv run cli.py
+```
+
+##### 4. Ask a Question
+Once the agent is running, you will see a `You:` prompt. Test the agent with an initial question. For example:
+
+```
+You: Tell me a fun fact about the Roman Empire.
+```
+
+If the agent responds, congratulations! The core conversational loop is working.
 
 ## Learn
 ### Update prompts
